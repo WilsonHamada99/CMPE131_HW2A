@@ -1,0 +1,3 @@
+1. Does not change the variable a after the function call
+2. Changes the variable b after the function call
+3. When we call the increment_int_b, someval[0] += 1 is asking to add 1 to the '0' place in the list/tuple. Therefore, the value will change and increased by 1 (32+1= 33).Thus, the increment_int_b satisfies pass by reference rule. On the other hand, increment_int_a value does not change because 32 is not a list/tuple and immutable. So, increment_int_a satisfies pass by value rule.
